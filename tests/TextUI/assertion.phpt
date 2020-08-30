@@ -2,8 +2,8 @@
 phpunit AssertionExampleTest ../_files/AssertionExampleTest.php
 --SKIPIF--
 <?php
-if (PHP_MAJOR_VERSION < 7) {
-    print 'skip: PHP 7 is required' . PHP_EOL;
+if (PHP_MAJOR_VERSION !== 7) {
+    print 'skip: PHP 7 (not 5 or 8) is required' . PHP_EOL;
 }
 
 if (ini_get('zend.assertions') != 1) {
