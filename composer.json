@@ -1,6 +1,6 @@
 {
-    "name": "phpunit/phpunit",
-    "description": "The PHP Unit Testing framework.",
+    "name": "sminnee/phpunit",
+    "description": "The PHP Unit Testing framework - forked to backport PHP 8 support",
     "type": "library",
     "keywords": [
         "phpunit",
@@ -17,7 +17,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/sebastianbergmann/phpunit/issues"
+        "issues": "https://github.com/sminnee/phpunit/issues"
     },
     "prefer-stable": true,
     "require": {
@@ -43,6 +43,9 @@
         "ext-mbstring": "*",
         "ext-xml": "*",
         "ext-libxml": "*"
+    },
+    "replace": {
+        "phpunit/phpunit": "^5.7"
     },
     "require-dev": {
         "ext-PDO": "*"
