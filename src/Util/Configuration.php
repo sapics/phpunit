@@ -159,7 +159,7 @@ class PHPUnit_Util_Configuration
         $this->xpath    = new DOMXPath($this->document);
     }
 
-    final private function __clone()
+    private function __clone()
     {
     }
 
