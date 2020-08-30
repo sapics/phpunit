@@ -1,10 +1,12 @@
 # PHPUnit
 
+**THIS FORK HAS BEEN RELEASED TO ADD PHP 8 SUPPORT TO PHPUNIT 5.7.**
+
 PHPUnit is a programmer-oriented testing framework for PHP. It is an instance of the xUnit architecture for unit testing frameworks.
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/phpunit/phpunit.svg?style=flat-square)](https://packagist.org/packages/phpunit/phpunit)
+[![Latest Stable Version](https://img.shields.io/packagist/v/sminnee/phpunit.svg?style=flat-square)](https://packagist.org/packages/phpunit/phpunit)
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.6-8892BF.svg?style=flat-square)](https://php.net/)
-[![Build Status](https://img.shields.io/travis/sebastianbergmann/phpunit/5.7.svg?style=flat-square)](https://phpunit.de/build-status.html)
+[![Build Status](https://img.shields.io/travis/sminnee/phpunit/5.7.svg?style=flat-square)](https://phpunit.de/build-status.html)
 
 ## Installation
 
