@@ -1054,7 +1054,7 @@ abstract class PHPUnit_Framework_TestCase extends PHPUnit_Framework_Assert imple
             $this->fail($e->getMessage());
         }
 
-        $testArguments = array_merge($this->data, $this->dependencyInput);
+        $testArguments = array_values(array_merge($this->data, $this->dependencyInput));
 
         $this->registerMockObjectsFromTestArguments($testArguments);
 
